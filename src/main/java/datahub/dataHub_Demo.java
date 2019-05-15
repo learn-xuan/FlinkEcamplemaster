@@ -20,7 +20,7 @@ public class dataHub_Demo {
         // 初始化阿里云Account与DataHubConfiguration
         String accessId = "";
         String accessKey = "";
-        String endpoint = "http://";   // 云服务器地址
+        String endpoint = "http://";   // 云服务 器地址
 
         AliyunAccount account = new AliyunAccount(accessId, accessKey);
         DatahubConfiguration conf = new DatahubConfiguration(account, endpoint);
